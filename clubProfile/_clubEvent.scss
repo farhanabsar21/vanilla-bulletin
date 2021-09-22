@@ -1,0 +1,51 @@
+$circle-height: 11px;
+$circle-width: 13px;
+
+.club-container-body{
+    .event-info{
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+        .event-info-body{
+            .event-info-header{
+                h3{
+                    color: $primary-color;
+                    font-size: 18px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                }
+                border-bottom: 1px solid $secondary-color;
+            }
+            .event-list{
+                border-bottom: 2px solid $label;
+                h3{
+                    font-size: 18px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                }
+                h4{
+                    font-size: 16px;
+                    color: $label;
+                    text-transform: capitalize;
+                }
+            }
+            .arrow-down{
+                width: fit-content;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: $circle;
+                padding: $circle-height $circle-width;
+                border-radius: 50%;
+                bottom: -3%;
+                left: 50%;
+                transform: translateX(-50%);
+                cursor: pointer;
+                i{
+                    color: $white;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

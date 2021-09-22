@@ -1,0 +1,64 @@
+// primary font loader - poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// primary variables
+$primary-color: #46A4A3;
+$secondary-color: #EF9740;
+$white: #ffffff;
+$optional-color: #AADCDA;
+$text: #333333;
+$light-border: #1D1D1D;
+$background: #F6F6F6;
+$label: #555555;
+$circle: #E2E2E2;
+
+.club-container{
+    width: 85%;
+    margin: 0 auto;
+}
+.club-profile-container{
+    background-color: $background;
+    height: auto;
+    width: 100%;
+    .club-header{
+        h1{
+            color: $primary-color;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+    .club-container-body{
+        .club-info{
+            background-color: $white;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+            .club-info-header{
+                height: 200px;
+                background-color: $primary-color;
+                border-radius: 10px 10px 0 0;
+                h2{
+                    color: $white;
+                    font-size: 28px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+            }
+            .club-info-body{
+                label{
+                    text-transform: capitalize;
+                    color: $label;
+                }
+                h3{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+                a{
+                    text-decoration: none;
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}
+
+@import "./clubEvent"

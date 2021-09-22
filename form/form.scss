@@ -1,0 +1,72 @@
+// primary font loader - poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// primary variables
+$primary-color: #46A4A3;
+$secondary-color: #EF9740;
+$white: #ffffff;
+$optional-color: #AADCDA;
+$text: #333333;
+$light-border: #1D1D1D;
+
+body{
+    height: 100vh;
+    .sign-in-form-section{
+        width: 100%;
+        height: 100%;
+        background-color: $optional-color;
+        .form-container{
+            padding: 3rem 4rem;
+            background-color: $white;
+            border-radius: 15px;
+            box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+            h2{
+                color: $primary-color;
+                text-transform: capitalize;
+                padding: 5px;
+                .orange{
+                    color: $secondary-color;
+                }
+            }
+            input{
+                width: 100%;
+                outline: none;
+                border: none;
+                padding: 10px;
+                border-bottom: 1px solid $light-border;
+                color: $text;
+                margin-top: 1.5rem;
+            }
+            .eye-container{
+                position: absolute;
+                bottom: 15%;
+                right: 0;
+                color: $text;
+                cursor: pointer;
+            }
+            .form-btn-container{
+                width: 100%;
+                padding: 10px 0;
+                margin-top: 1.5rem;
+                .form-submit-btn{
+                    button{
+                        border: 0;
+                        outline: none;
+                        padding: 10px 24px;
+                        background-color: $secondary-color;
+                        color: $white;
+                        text-transform: capitalize;
+                    }
+                }
+                p{
+                    color: $text;
+                    padding-right: 1rem;
+                }
+                a{
+                    color: $secondary-color;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
