@@ -112,4 +112,200 @@
   color: #ffffff;
   font-size: 18px;
 }
+
+.member-basic-info-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.member-basic-info-container .basic-info .basic-info-header h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #46A4A3;
+  font-weight: 600;
+  position: relative;
+}
+
+.member-basic-info-container .basic-info .basic-info-header h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #EF9740;
+  width: 65%;
+  right: 5%;
+  bottom: 0;
+  padding-left: 1rem;
+}
+
+.member-basic-info-container .basic-info .basic-info-header a {
+  text-decoration: none;
+  color: #EF9740;
+  text-transform: capitalize;
+}
+
+.member-basic-info-container .basic-info .basic-info-body .basic-list h6 {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #555555;
+}
+
+.member-basic-info-container .basic-info .basic-info-body .basic-list h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.member-basic-info-container .basic-info .basic-info-body .basic-list p {
+  font-size: 17px;
+  color: #333333;
+}
+
+.member-basic-info-container .member-info .member-info-header h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #46A4A3;
+  font-weight: 600;
+  position: relative;
+}
+
+.member-basic-info-container .member-info .member-info-header h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #EF9740;
+  width: 60%;
+  right: 5%;
+  bottom: 0;
+}
+
+.member-basic-info-container .member-info .member-info-header a {
+  text-decoration: none;
+  color: #EF9740;
+  text-transform: capitalize;
+}
+
+.member-basic-info-container .member-info .member-info-body .member-list h6 {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #555555;
+  padding-bottom: 1rem;
+}
+
+.member-basic-info-container .member-info .member-info-body .member-list h5 {
+  font-size: 18px;
+}
+
+.member-basic-info-container .member-info .member-info-body .member-list p {
+  font-size: 18px;
+  color: #333333;
+  text-transform: capitalize;
+}
+
+.bulletin-info {
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.bulletin-info .arrow-down {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E2E2E2;
+  padding: 11px 13px;
+  border-radius: 50%;
+  bottom: -3%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.bulletin-info .arrow-down i {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.bulletin-info .bulletin-info-header h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #46A4A3;
+  font-weight: 500;
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.bulletin-info .bulletin-info-header h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #EF9740;
+  width: 50%;
+  right: 5%;
+  bottom: 0;
+}
+
+.bulletin-info .bulletin-info-header button {
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  background-color: #EF9740;
+  color: #ffffff;
+  padding: 10px 16px;
+}
+
+.bulletin-info .bulletin-info-body {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.bulletin-info .bulletin-info-body .bullet-info-card .info-card-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.bulletin-info .bulletin-info-body .bullet-info-card .info-card-body .card-body-content-header img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bulletin-info .bulletin-info-body .bullet-info-card .info-card-body .card-body-content-header h4 {
+  font-size: 18px;
+  color: #333333;
+}
+
+.bulletin-info .bulletin-info-body .bullet-info-card .info-card-body .card-body-content-header p {
+  font-size: 15px;
+  color: #555555;
+}
+
+.bulletin-info .bulletin-info-body .bullet-info-card .info-card-body .card-body-content-details h4 {
+  color: #46A4A3;
+  font-size: 18px;
+}
+
+.bulletin-info .bulletin-info-body .bullet-info-card .info-card-body .card-body-content-footer a {
+  text-decoration: none;
+  color: #EF9740;
+  text-transform: capitalize;
+}
 /*# sourceMappingURL=clubProfile.css.map */

@@ -1,0 +1,94 @@
+.member-basic-info-container{
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+    // basic
+    .basic-info{
+        .basic-info-header{
+            h4{
+                text-transform: capitalize;
+                font-size: 18px;
+                color: $primary-color;
+                font-weight: 600;
+                position: relative;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    height: 2px;
+                    background-color: $secondary-color;
+                    width: 65%;
+                    right: 5%;
+                    bottom: 0;
+                    padding-left: 1rem;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: $secondary-color;
+                text-transform: capitalize;
+            }
+        }
+        .basic-info-body{
+            .basic-list{
+                h6{
+                    text-transform: capitalize;
+                    font-size: 16px;
+                    color: $label;
+                }
+                h4{
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    color: $text;
+                }
+                p{
+                    font-size: 17px;
+                    color: $text;
+                }
+            }
+        }
+    }
+    // member info
+    .member-info{
+        .member-info-header{
+            h4{
+                text-transform: capitalize;
+                font-size: 18px;
+                color: $primary-color;
+                font-weight: 600;
+                position: relative;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    height: 2px;
+                    background-color: $secondary-color;
+                    width: 60%;
+                    right: 5%;
+                    bottom: 0;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: $secondary-color;
+                text-transform: capitalize;
+            }
+        }
+        .member-info-body{
+            .member-list{
+                h6{
+                    text-transform: capitalize;
+                    font-size: 16px;
+                    color: $label;
+                    padding-bottom: 1rem;
+                }
+                h5{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 18px;
+                    color: $text;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.bulletin-info{
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+    .arrow-down{
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $circle;
+        padding: $circle-height $circle-width;
+        border-radius: 50%;
+        bottom: -3%;
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+        i{
+            color: $white;
+            font-size: 18px;
+        }
+    }
+    .bulletin-info-header{
+        h4{
+            text-transform: capitalize;
+            font-size: 18px;
+            color: $primary-color;
+            font-weight: 500;
+            position: relative;
+            margin-top: 0.5rem;
+            &::after{
+                content: "";
+                position: absolute;
+                height: 2px;
+                background-color: $secondary-color;
+                width: 50%;
+                right: 5%;
+                bottom: 0;
+            }
+        }
+        button{
+            outline: none;
+            border: none;
+            text-transform: capitalize;
+            background-color: $secondary-color;
+            color: $white;
+            padding: 10px 16px;
+        }
+    }
+    .bulletin-info-body{
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        .bullet-info-card{
+            .info-card-image{
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 10px 0 0 10px;
+                }
+            }
+            .info-card-body{
+                .card-body-content-header{
+                    img{
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                    h4{
+                        font-size: 18px;
+                        color: $text;
+                    }
+                    p{
+                        font-size: 15px;
+                        color: $label
+                    }
+                }
+                .card-body-content-details{
+                    h4{
+                        color: $primary-color;
+                        font-size: 18px;
+                    }
+                }
+                .card-body-content-footer{
+                    a{
+                        text-decoration: none;
+                        color: $secondary-color;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}
