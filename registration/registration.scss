@@ -1,0 +1,77 @@
+// primary font loader - poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// primary variables
+$primary-color: #46A4A3;
+$secondary-color: #EF9740;
+$white: #ffffff;
+$optional-color: #AADCDA;
+$text: #333333;
+$light-border: #1D1D1D;
+$background: #F6F6F6;
+$label: #555555;
+$circle: #E2E2E2;
+
+.registration-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.registration-section{
+    font-family: 'Poppins', sans-serif;
+    .registration-header{
+        h2{
+            color: $primary-color;
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        h3{
+            color: $primary-color;
+            text-transform: capitalize;
+            font-size: 2rem;
+        }
+        p{
+            color: $secondary-color;
+            margin-top: 1.5rem;
+        }
+    }
+    .registration-body{
+        .registration-input-block{
+            h4{
+                color: $primary-color;
+                text-transform: capitalize;
+                font-size: 16px;
+                padding-bottom: 10px;
+            }
+            label{
+                text-transform: capitalize;
+                color: $label;
+                display: block;
+                font-size: 15px;
+                padding-bottom: 10px;
+            }
+            input{
+                border: 2px solid $label;
+                color: $text;
+                padding: 10px 16px;
+                outline: none;
+                width: 400px;
+            }
+            .orange{
+                color: $secondary-color;
+            }
+        }
+    }
+    .registration-footer{
+        button{
+            outline: 0;
+            border: 2px solid $secondary-color;
+            padding: 12px 24px;
+            background-color: $white;
+            color: $primary-color;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+    }
+}
